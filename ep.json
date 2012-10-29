@@ -1,0 +1,15 @@
+{
+  "parts": [
+    {
+      "name": "ep_pubmed",
+      "hooks": {
+        "aceGetFilterStack": "ep_pubmed/static/js/pubmed:aceGetFilterStack",
+        "aceCreateDomLine": "ep_pubmed/static/js/pubmed:aceCreateDomLine"
+      },
+      "client_hooks": {
+        "aceGetFilterStack": "ep_pubmed/static/js/pubmed:aceGetFilterStack",
+        "aceCreateDomLine": "ep_pubmed/static/js/pubmed:aceCreateDomLine"
+      }
+    }
+  ]
+}
